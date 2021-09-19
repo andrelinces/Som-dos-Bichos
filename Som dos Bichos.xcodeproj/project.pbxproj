@@ -13,6 +13,12 @@
 		D321B73E26F6CA0E0001D283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D321B73C26F6CA0E0001D283 /* Main.storyboard */; };
 		D321B74026F6CA0F0001D283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D321B73F26F6CA0F0001D283 /* Assets.xcassets */; };
 		D321B74326F6CA0F0001D283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D321B74126F6CA0F0001D283 /* LaunchScreen.storyboard */; };
+		D321B75126F6CB3A0001D283 /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B74B26F6CB3A0001D283 /* leao.mp3 */; };
+		D321B75226F6CB3A0001D283 /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B74C26F6CB3A0001D283 /* macaco.mp3 */; };
+		D321B75326F6CB3A0001D283 /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B74D26F6CB3A0001D283 /* gato.mp3 */; };
+		D321B75426F6CB3A0001D283 /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B74E26F6CB3A0001D283 /* ovelha.mp3 */; };
+		D321B75526F6CB3A0001D283 /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B74F26F6CB3A0001D283 /* vaca.mp3 */; };
+		D321B75626F6CB3A0001D283 /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D321B75026F6CB3A0001D283 /* cao.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		D321B73F26F6CA0F0001D283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D321B74226F6CA0F0001D283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D321B74426F6CA0F0001D283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D321B74B26F6CB3A0001D283 /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leao.mp3; sourceTree = "<group>"; };
+		D321B74C26F6CB3A0001D283 /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macaco.mp3; sourceTree = "<group>"; };
+		D321B74D26F6CB3A0001D283 /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		D321B74E26F6CB3A0001D283 /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ovelha.mp3; sourceTree = "<group>"; };
+		D321B74F26F6CB3A0001D283 /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
+		D321B75026F6CB3A0001D283 /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		D321B73526F6CA0E0001D283 /* Som dos Bichos */ = {
 			isa = PBXGroup;
 			children = (
+				D321B74A26F6CB060001D283 /* Sons */,
 				D321B73626F6CA0E0001D283 /* AppDelegate.swift */,
 				D321B73826F6CA0E0001D283 /* SceneDelegate.swift */,
 				D321B73A26F6CA0E0001D283 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				D321B74426F6CA0F0001D283 /* Info.plist */,
 			);
 			path = "Som dos Bichos";
+			sourceTree = "<group>";
+		};
+		D321B74A26F6CB060001D283 /* Sons */ = {
+			isa = PBXGroup;
+			children = (
+				D321B75026F6CB3A0001D283 /* cao.mp3 */,
+				D321B74D26F6CB3A0001D283 /* gato.mp3 */,
+				D321B74B26F6CB3A0001D283 /* leao.mp3 */,
+				D321B74C26F6CB3A0001D283 /* macaco.mp3 */,
+				D321B74E26F6CB3A0001D283 /* ovelha.mp3 */,
+				D321B74F26F6CB3A0001D283 /* vaca.mp3 */,
+			);
+			path = Sons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D321B74326F6CA0F0001D283 /* LaunchScreen.storyboard in Resources */,
+				D321B75526F6CB3A0001D283 /* vaca.mp3 in Resources */,
+				D321B75426F6CB3A0001D283 /* ovelha.mp3 in Resources */,
+				D321B75626F6CB3A0001D283 /* cao.mp3 in Resources */,
 				D321B74026F6CA0F0001D283 /* Assets.xcassets in Resources */,
+				D321B75226F6CB3A0001D283 /* macaco.mp3 in Resources */,
 				D321B73E26F6CA0E0001D283 /* Main.storyboard in Resources */,
+				D321B75126F6CB3A0001D283 /* leao.mp3 in Resources */,
+				D321B75326F6CB3A0001D283 /* gato.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
